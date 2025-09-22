@@ -1,0 +1,17 @@
+{
+  "name": "projeto-completo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-backend": "cd ServerAPIs && npm run dev",
+    "start-frontend": "cd meu-painel-de-produtos && npm run dev",
+    "start-all": "concurrently \"npm run start-backend\" \"npm run start-frontend\" \"npm run init-admin\"",
+    "init-admin": "cd ServerAPIs && node src/script/admin.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

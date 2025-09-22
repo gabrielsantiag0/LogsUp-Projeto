@@ -1,0 +1,9 @@
+No terminal 
+execute o comando: (cd ServerAPIs npm install)
+Depois execute: (cd ../meu-painel-de-produtos npm install)
+Para instalar todas as dependencias.
+No terminal: (cd..) para voltar a pasta base
+Agora para iniciar o projeto no terminal escreva: (npm run start-all)
+
+Configure o arquivo .env com os valores corespondentes ao seu Banco
+E rode o script SQLQuery2 No seu banco, copie e cole 
